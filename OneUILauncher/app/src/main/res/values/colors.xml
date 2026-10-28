@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="oneui_blue">#1A5FD9</color>
+    <color name="oneui_blue_dark">#0D47A1</color>
+    <color name="oneui_bg_dark">#0A0A0A</color>
+    <color name="oneui_text_primary_dark">#FFFFFF</color>
+    <color name="oneui_text_secondary_dark">#B3B3B3</color>
+    <color name="oneui_dock_bg">#33000000</color>
+    <color name="oneui_drawer_bg">#F5000000</color>
+    <color name="oneui_ripple">#33FFFFFF</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.OneUILauncher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/oneui_blue</item>
+        <item name="colorPrimaryDark">@color/oneui_blue_dark</item>
+        <item name="colorAccent">@color/oneui_blue</item>
+        <item name="android:windowBackground">@color/oneui_bg_dark</item>
+    </style>
+
+    <style name="Theme.OneUILauncher.Home" parent="Theme.OneUILauncher">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>
